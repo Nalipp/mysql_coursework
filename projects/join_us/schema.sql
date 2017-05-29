@@ -7,7 +7,4 @@ CREATE TABLE users (
   created_at TIMESTAMP DEFAULT NOW()
 );
 
-INSERT INTO users(email) VALUES 
-('nate@gmail.com'), ('amy@gmail.com');
-
 SELECT * FROM users;
